@@ -1,4 +1,7 @@
 # NLP_Vietnamese
+
+TEXT TO ARPABET
+
 Chạy
 
 python run.py

@@ -20,3 +20,5 @@ TEXT: hai mũ ba bằng bốn mươi tám
 ARPABET: HH AA IY 0. M W 4. B AA 0. B AA: NG 2. B OW N 1. M IXO IY 0. T AA M 1.
 TEXT: ba mươi phần năm
 ARPABET: B AA 0. M IXO IY 0. F AX N 2. N AA: M 0.
+TEXT: một trăm phần trăm
+ARPABET: M OW T 5. TSH AA: M 0. F AX N 2. TSH AA: M 0.
