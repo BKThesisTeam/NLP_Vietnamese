@@ -1,0 +1,22 @@
+TEXT: Trường đại học Bách Khoa được thành lập vào ngày ngày mười chín tháng năm năm một nghìn chín trăm chín mươi lăm
+ARPABET: TSH IXO NG 2. D AA IY 5. HH AO K 5. B AA CH 1. KX W AA 0. D IXO K 5. TCL AA NH 2. L AX P 5. V AA AO 2. NG AA IY 2. NG AA IY 2. M IXO IY 2. CH IY N 1. TCL AA NG 1. N AA: M 0. N AA: M 0. M OW T 5. NG IY N 2. CH IY N 1. TSH AA: M 0. CH IY N 1. M IXO IY 0. L AA: M 0.
+TEXT: Hồ Chí Minh
+ARPABET: HH OW 2. CH IY 1. M IY NH 0.
+TEXT: ba mươi cộng bốn mươi lăm
+ARPABET: B AA 0. M IXO IY 0. K OW NG 5. B OW N 1. M IXO IY 0. L AA: M 0.
+TEXT: một nghìn tỷ mười lăm triệu bốn trăm năm mươi hai nghìn một trăm hai mươi mốt
+ARPABET: M OW T 5. NG IY N 2. T IY 3. M IXO IY 2. L AA: M 0. TSH IY IE W 5. B OW N 1. TSH AA: M 0. N AA: M 0. M IXO IY 0. HH AA IY 0. NG IY N 2. M OW T 5. TSH AA: M 0. HH AA IY 0. M IXO IY 0. M OW T 1.
+TEXT: Con mèo và con chó
+ARPABET: K AO N 0. M EH AO 2. V AA 2. K AO N 0. CH AO 1.
+TEXT: đảng cộng sản việt nam
+ARPABET: D AA NG 3. K OW NG 5. AH AA N 3. V IY IE T 5. N AA M 0.
+TEXT: thời đại a còng
+ARPABET: TCL AX: IY 2. D AA IY 5. AA 0. K AO NG 2.
+TEXT: hai đô la
+ARPABET: HH AA IY 0. D OW 0. L AA 0.
+TEXT: hai cộng ba
+ARPABET: HH AA IY 0. K OW NG 5. B AA 0.
+TEXT: hai mũ ba bằng bốn mươi tám
+ARPABET: HH AA IY 0. M W 4. B AA 0. B AA: NG 2. B OW N 1. M IXO IY 0. T AA M 1.
+TEXT: ba mươi phần năm
+ARPABET: B AA 0. M IXO IY 0. F AX N 2. N AA: M 0.
