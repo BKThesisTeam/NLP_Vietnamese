@@ -173,7 +173,7 @@ if __name__ == "__main__":
     nlp = nlp_vn(text)
     nlp.split_word_sent()
     nlp.convert()
-    print nlp.join_str(nlp.result)
+    print(nlp.join_str(nlp.result))
     
 
 

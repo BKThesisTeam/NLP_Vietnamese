@@ -20,52 +20,52 @@ class Text2ARPAbet(object):
 
         # Phụ âm
         self.re_consonant = [
-            [ur'b', u'B '],
-            [ur'đ', u'D '],
-            [ur'ph', u'F '],
-            [ur'th', u'TCL '],
-            [ur'tr', u'TSH '],
-            [ur'd|gi', u'Z '],
-            [ur'ch', u'CH '],
-            [ur'ngh|ng', u'NG '],
-            [ur'kh', u'KX '],
-            [ur'gh|g', u'G '],
-            [ur'nh', u'NH '],
-            [ur't(?!(h|r))', u'T '],
-            [ur'c(?!h)|k|q', u'K '],
-            [ur'r', u'R '],
-            [ur'h', u'HH '],
-            [ur'm', u'M '],
-            [ur'v', u'V '],
-            [ur'n(?!(h|g))', u'N '],
-            [ur'l', u'L '],
-            [ur'x', u'S '],
-            [ur'p(?!h)', u'P '],
-            [ur's', u'AH ']
+            [u'b', u'B '],
+            [u'đ', u'D '],
+            [u'ph', u'F '],
+            [u'th', u'TCL '],
+            [u'tr', u'TSH '],
+            [u'd|gi', u'Z '],
+            [u'ch', u'CH '],
+            [u'ngh|ng', u'NG '],
+            [u'kh', u'KX '],
+            [u'gh|g', u'G '],
+            [u'nh', u'NH '],
+            [u't(?!(h|r))', u'T '],
+            [u'c(?!h)|k|q', u'K '],
+            [u'r', u'R '],
+            [u'h', u'HH '],
+            [u'm', u'M '],
+            [u'v', u'V '],
+            [u'n(?!(h|g))', u'N '],
+            [u'l', u'L '],
+            [u'x', u'S '],
+            [u'p(?!h)', u'P '],
+            [u's', u'AH ']
         ]
 
         # Bán nguyên âm
         self.re_halfvowel = [
-            [ur'u(?!(ô|a))', u'W '],
-            [ur'o(?=(a|ă|e))', u'W ']
+            [u'u(?!(ô|a))', u'W '],
+            [u'o(?=(a|ă|e))', u'W ']
         ]
 
         # Nguyên âm
         self.re_vowel = [
-            [ur'ia|ya|iê|yê', u'IY IE '],
-            [ur'uô|ua', u'UX '],
-            [ur'ươ|ưa', u'IXO '],
-            [ur'i|y', u'IY '],
-            [ur'e', u'EH '],
-            [ur'ê', u'EY '],
-            [ur'a', u'AA '],
-            [ur'ă', u'AA: '],
-            [ur'â', u'AX '],
-            [ur'o', u'AO '],
-            [ur'ô', u'OW '],
-            [ur'ơ', u'AX: '],
-            [ur'u', u'UW '],
-            [ur'ư', u'IX ']
+            [u'ia|ya|iê|yê', u'IY IE '],
+            [u'uô|ua', u'UX '],
+            [u'ươ|ưa', u'IXO '],
+            [u'i|y', u'IY '],
+            [u'e', u'EH '],
+            [u'ê', u'EY '],
+            [u'a', u'AA '],
+            [u'ă', u'AA: '],
+            [u'â', u'AX '],
+            [u'o', u'AO '],
+            [u'ô', u'OW '],
+            [u'ơ', u'AX: '],
+            [u'u', u'UW '],
+            [u'ư', u'IX ']
         ]
         
     def clean(self):
@@ -114,4 +114,4 @@ if __name__ == '__main__':
     res = text.split(" ")
     for char in res:
         test = Text2ARPAbet(str=char)
-        print test.convert()
+        print(test.convert())

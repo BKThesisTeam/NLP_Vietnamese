@@ -20,7 +20,7 @@ def run(input, output):
         f_out.write(u"TEXT: "+new_str+u"\n")
 
         # Text to ARPABET
-        list_str = re.split(ur"\s+", new_str)
+        list_str = re.split(u"\s+", new_str)
         for word in list_str:
             arpabet = t2a(word)
             res = arpabet.convert()
