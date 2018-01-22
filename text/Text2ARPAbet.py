@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 import re
-import string
 
 __up__ =    u'áắấéếíóốớúứý'
 __down__ =  u'àằầèềìòồờùừỳ'
@@ -23,15 +22,16 @@ class Text2ARPAbet(object):
             [u'b', u'B '],
             [u'đ', u'D '],
             [u'ph', u'F '],
-            [u'th', u'TCL '],
-            [u'tr', u'TSH '],
+            [u'th', u'TH '],
+            [u'tr', u'T SH '],
             [u'd|gi', u'Z '],
             [u'ch', u'CH '],
             [u'ngh|ng', u'NG '],
-            [u'kh', u'KX '],
+            [u'kh', u'X '],
             [u'gh|g', u'G '],
             [u'nh', u'NH '],
             [u't(?!(h|r))', u'T '],
+            [u'qu', u'KW '],
             [u'c(?!h)|k|q', u'K '],
             [u'r', u'R '],
             [u'h', u'HH '],
@@ -41,12 +41,12 @@ class Text2ARPAbet(object):
             [u'l', u'L '],
             [u'x', u'S '],
             [u'p(?!h)', u'P '],
-            [u's', u'AH ']
+            [u's', u'SH ']
         ]
 
         # Bán nguyên âm
         self.re_halfvowel = [
-            [u'u(?!(ô|a))', u'W '],
+            [u'u(?=(yê|ya))', u'W '],
             [u'o(?=(a|ă|e))', u'W ']
         ]
 
@@ -105,6 +105,7 @@ class Text2ARPAbet(object):
 
         for map in self.re_vowel:
             self.str = re.sub(re.compile(map[0], re.UNICODE), map[1], self.str)
+
         if self.str != u'' or self.str != u' ':
             self.str = self.str + str(self.tone) + '.'
         return self.str
