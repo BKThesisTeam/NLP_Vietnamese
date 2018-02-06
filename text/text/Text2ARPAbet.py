@@ -101,15 +101,13 @@ class Text2ARPAbet(object):
             self.str = re.sub(re.compile(map[0], re.UNICODE), map[1], self.str)
 
         for map in self.re_halfvowel:
-            map[1] = map[1].strip() + str(self.tone) + " "
             self.str = re.sub(re.compile(map[0], re.UNICODE), map[1], self.str)
 
         for map in self.re_vowel:
-            map[1] = map[1].strip() + str(self.tone) + " "
             self.str = re.sub(re.compile(map[0], re.UNICODE), map[1], self.str)
 
         if self.str != u'' or self.str != u' ':
-            self.str = self.str
+            self.str = self.str + str(self.tone) + '.'
         return self.str
 
 if __name__ == '__main__':
