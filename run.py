@@ -17,16 +17,17 @@ def run(input, output):
         words.split_word_sent()
         words.convert()
         new_str = words.join_str(words.result)
-        f_out.write(u"TEXT: "+new_str+u"\n")
+        # f_out.write(u"TEXT: "+new_str+u"\n")
 
         # Text to ARPABET
-        list_str = re.split(u"\s+", new_str)
+        list_str = re.split(u'\s+', new_str)
         for word in list_str:
             arpabet = t2a(word)
             res = arpabet.convert()
             result.append(res)
         out = " ".join(result)
-        f_out.write(u"ARPABET: "+out+u"\n")
+        # f_out.write(u"ARPABET: "+out+u"\n")
+        f_out.write(out+u"\n")
         result = []
     
     f_in.close()

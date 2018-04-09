@@ -1,30 +1,15 @@
-TEXT: Trường đại học Bách Khoa được thành lập vào ngày ngày mười chín tháng năm năm một nghìn chín trăm chín mươi lăm
-ARPABET: T SH IXO NG 2. D AA IY 5. HH AO K 5. B AA CH 1. X W AA 0. D IXO K 5. TH AA NH 2. L AX P 5. V AA AO 2. NG AA IY 2. NG AA IY 2. M IXO IY 2. CH IY N 1. TH AA NG 1. N AA: M 0. N AA: M 0. M OW T 5. NG IY N 2. CH IY N 1. T SH AA: M 0. CH IY N 1. M IXO IY 0. L AA: M 0.
-TEXT: Hồ Chí Minh
-ARPABET: HH OW 2. CH IY 1. M IY NH 0.
-TEXT: ba mươi cộng bốn mươi lăm
-ARPABET: B AA 0. M IXO IY 0. K OW NG 5. B OW N 1. M IXO IY 0. L AA: M 0.
-TEXT: một nghìn tỷ mười lăm triệu bốn trăm năm mươi hai nghìn một trăm hai mươi mốt
-ARPABET: M OW T 5. NG IY N 2. T IY 3. M IXO IY 2. L AA: M 0. T SH IY IE UW 5. B OW N 1. T SH AA: M 0. N AA: M 0. M IXO IY 0. HH AA IY 0. NG IY N 2. M OW T 5. T SH AA: M 0. HH AA IY 0. M IXO IY 0. M OW T 1.
-TEXT: Con mèo và con chó
-ARPABET: K AO N 0. M EH AO 2. V AA 2. K AO N 0. CH AO 1.
-TEXT: đảng cộng sản việt nam
-ARPABET: D AA NG 3. K OW NG 5. SH AA N 3. V IY IE T 5. N AA M 0.
-TEXT: thời đại a còng
-ARPABET: TH AX: IY 2. D AA IY 5. AA 0. K AO NG 2.
-TEXT: hai đô la
-ARPABET: HH AA IY 0. D OW 0. L AA 0.
-TEXT: hai cộng ba
-ARPABET: HH AA IY 0. K OW NG 5. B AA 0.
-TEXT: hai mũ ba bằng bốn mươi tám
-ARPABET: HH AA IY 0. M UW 4. B AA 0. B AA: NG 2. B OW N 1. M IXO IY 0. T AA M 1.
-TEXT: ba mươi phần năm
-ARPABET: B AA 0. M IXO IY 0. F AX N 2. N AA: M 0.
-TEXT: một trăm phần trăm
-ARPABET: M OW T 5. T SH AA: M 0. F AX N 2. T SH AA: M 0.
-TEXT: bốn phẩy năm
-ARPABET: B OW N 1. F AX IY 3. N AA: M 0.
-TEXT: Cây ca cao và sô cô la
-ARPABET: K AX IY 0. K AA 0. K AA AO 0. V AA 2. SH OW 0. K OW 0. L AA 0.
-TEXT: ABC
-ARPABET: AA B K 0.
+TSH IXO2 NG - D AA5 IY - HH AO5 K - B AA1 CH - X W AA - D IXO5 K - TH AA2 NH - L AX5 P - V AA2 AO - NG AA2 IY - NG AA2 IY - M IXO2 IY - CH IY1 N - TH AA1 NG - N AA: M - N AA: M - M OW5 T - NG IY2 N - CH IY1 N - TSH AA: M - CH IY1 N - M IXO IY - L AA: M -
+HH OW2 - CH IY1 - M IY NH -
+B AA - M IXO IY - K OW5 NG - B OW1 N - M IXO IY - L AA: M -
+M OW5 T - NG IY2 N - T IY3 - M IXO2 IY - L AA: M - TSH IYE5 UW - B OW1 N - TSH AA: M - N AA: M - M IXO IY - HH AA IY - NG IY2 N - M OW5 T - TSH AA: M - HH AA IY - M IXO IY - M OW1 T -
+K AO N - M EH2 AO - V AA2 - K AO N - CH AO1 -
+D AA3 NG - K OW5 NG - SH AA3 N - V IYE5 T - N AA M -
+TH AX:2 IY - D AA5 IY - AA - K AO2 NG -
+HH AA IY - D OW - L AA -
+HH AA IY - K OW5 NG - B AA -
+HH AA IY - M UW4 - B AA - B AA:2 NG - B OW1 N - M IXO IY - T AA1 M -
+B AA - M IXO IY - F AX2 N - N AA: M -
+M OW5 T - TSH AA: M - F AX2 N - TSH AA: M -
+B OW1 N - F AX3 IY - N AA: M -
+K AX IY - K AA - K AA AO - V AA2 - SH OW - K OW - L AA -
+AA B K -
