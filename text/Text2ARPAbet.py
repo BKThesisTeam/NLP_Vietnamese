@@ -31,7 +31,6 @@ class Text2ARPAbet(object):
             [u'gh|g', u'G '],
             [u'nh', u'NH '],
             [u't(?!(h|r))', u'T '],
-            [u'qu', u'KW '],
             [u'c(?!h)|k|q', u'K '],
             [u'r', u'R '],
             [u'h', u'HH '],
