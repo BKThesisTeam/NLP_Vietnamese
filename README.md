@@ -1,127 +1,14 @@
 # NLP_Vietnamese
+```
 TEXT TO ARPABET
-
+```
 # Cách chạy
+```
 ./script.sh
 Chuỗi nhập : input.txt
 Kết quả: output.txt
-
-
+```
 # Yêu cầu thư viện:
+```
 re, underthesea (https://github.com/magizbox/underthesea)
-
-# Hệ thống âm vị
-Phụ Âm : 23
-            [b, B],
-            [đ, D],
-            [ph, F],
-            [th, TH],
-            [tr, TSH],
-            [d|gi, Z],
-            [ch, CH],
-            [ngh|ng, NG],
-            [kh, X],
-            [gh|g, G],
-            [nh, NH],
-            [t, T],
-            [qu, KW],
-            [c|k|q, K],
-            [r, R],
-            [h, HH],
-            [m, M],
-            [v, V],
-            [n, N],
-            [l, L],
-            [x, S],
-            [p, P],
-            [s, SH]
-
-Bán Nguyên âm : 2
-            [u, W],
-            [o, W]
-
-Nguyên âm : 84
-            [ia|ya|iê|yê, IYE],
-            [ía|ýa|iế|yế, IYE1],
-            [ìa|ỳa|iề|yề, IYE2],
-            [ỉa|ỷa|iể|yể, IYE3],
-            [ĩa|ỹa|iễ|yễ, IYE4],
-            [ịa|ỵa|iệ|yệ, IYE5],
-            [uô|ua, UX],
-            [uố|úa, UX1],
-            [uồ|ùa, UX2],
-            [uổ|ủa, UX3],
-            [uỗ|ũa, UX4],
-            [uộ|ụa, UX5],
-            [ươ|ưa, IXO],
-            [ướ|ứa, IXO1],
-            [ườ|ừa, IXO2],
-            [ưở|ửa, IXO3],
-            [ưỡ|ữa, IXO4],
-            [ượ|ựa, IXO5],
-            [i|y, IY],
-            [í|ý, IY1],
-            [ì|ỳ, IY2],
-            [ỉ|ỷ, IY3],
-            [ĩ|ỹ, IY4],
-            [ị|ỵ, IY5],
-            [e, EH],
-            [é, EH1],
-            [è, EH2],
-            [ẻ, EH3],
-            [ẽ, EH4],
-            [ẹ, EH5],
-            [ê, EY],
-            [ế, EY1],
-            [ề, EY2],
-            [ể, EY3],
-            [ễ, EY4],
-            [ệ, EY5],
-            [a, AA],
-            [á, AA1],
-            [à, AA2],
-            [ả, AA3],
-            [ã, AA4],
-            [ạ, AA5],
-            [ă, AA:],
-            [ắ, AA:1],
-            [ằ, AA:2],
-            [ẳ, AA:3],
-            [ẵ, AA:4],
-            [ặ, AA:5],
-            [â, AX],
-            [ấ, AX1],
-            [ầ, AX2],
-            [ẩ, AX3],
-            [ẫ, AX4],
-            [ậ, AX5],
-            [o, AO],
-            [ó, AO1],
-            [ò, AO2],
-            [ỏ, AO3],
-            [õ, AO4],
-            [ọ, AO5],
-            [ô, OW],
-            [ố, OW1],
-            [ồ, OW2],
-            [ổ, OW3],
-            [ỗ, OW4],
-            [ộ, OW5],
-            [ơ, AX:],
-            [ớ, AX:1],
-            [ờ, AX:2],
-            [ở, AX:3],
-            [ỡ, AX:4],
-            [ợ, AX:5],
-            [u, UW],
-            [ú, UW1],
-            [ù, UW2],
-            [ủ, UW3],
-            [ũ, UW4],
-            [ụ, UW5],
-            [ư, IX],
-            [ứ, IX1],
-            [ừ, IX2],
-            [ử, IX3],
-            [ữ, IX4],
-            [ự, IX5]
+```
